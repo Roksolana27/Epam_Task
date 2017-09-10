@@ -11,9 +11,29 @@
 
 <body>
     <div id="container" class="container">
-        
-    <div id="table-section"></div>
-
+    <section>
+        <div id="form-section">
+            <form action="#" id="user-form">
+                <input type="text" name="uname" placeholder="First Name" required>
+                <input type="text" name="sname" placeholder="Last Name" required>
+                <input type="email" name="uemail" placeholder="Email" required>
+                <input type="text" name="uskills" placeholder="Skills" required>
+                <input type="text" name="uphoto" placeholder="Enter url of your image">
+                <br><input type="button" value="SAVE" id="saveBtn">
+                <input type="button" value="CANCEL" id="cancelBtn">
+            </form>
+        </div>
+        </section>
+        <section>
+            <div id="table-section"></div>
+        </section><!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="content"></div>
+            </div>
+        </div>
     </div>
     <script src="main.js"></script>
     <script src="script.js"></script>
