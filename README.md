@@ -1,8 +1,6 @@
 
 FL-DOM
 
-You cannot change smth in index.html
-
 Create the table of the students, which has the following titles : “Student”(name + lastname), “email”, “Profile picture”, “Skils”, “controls”(edit, remove) . Hint: for remove use class ‘glyphicon glyphicon-trash’; for edit ‘glyphicon glyphicon-edit’; for table ‘table table-hover’.
 
 Show alert with with student when user clicks to the table row(hint: add listener to the tbody)
